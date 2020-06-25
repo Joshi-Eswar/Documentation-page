@@ -1,0 +1,65 @@
+body{
+    background-color:grey;
+    font-family: 'Merriweather', serif;
+
+    
+   
+}
+
+.main{
+    background:linear-gradient(#FCF6F5FF,#F0E1B9FF, #F3DB74FF, 
+    #A13941FF,#963CBDFF,
+     #FF6F61FF, #C5299BFF, #FEAE51FF);
+     text-align: center;
+
+    
+
+}
+
+p,ul,li,code .footers{
+    text-align:center;
+    font-size:1rem ;
+    line-height: 2rem;
+    
+}
+.footers{
+    text-align: center;
+    background-color: grey;
+    padding: 50px;
+    color: white;
+
+}
+
+.nav{
+    
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    
+        height: 100%;
+        border: 1px solid white;
+        overflow-y: scroll;
+        background-color: grey;
+      
+}
+.nav-link{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: honeydew;
+}
+.nav-link:hover{
+    color:grey;
+    background-color: white;
+    
+}
+hr:hover{
+    color: green;
+}
+header{
+    font-size: 2.5rem;
+}
